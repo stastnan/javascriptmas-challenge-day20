@@ -16,7 +16,7 @@ const dangerArray = [
   ],
 ];
 
-// from multidimentional array to one-dimentional
+// from multidimensional array to one-multidimensional
 function simpleArray(arr) {
   return arr.reduce((accumulator, current) => {
     return accumulator.concat(
